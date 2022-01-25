@@ -1,0 +1,160 @@
+@media (max-width: 720px) {
+
+    /* Global CSS */
+    h1 {
+        font-size: 26px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    h4 {
+        font-size: 20px;
+    }
+    
+    h5 {
+        font-size: 18px;
+    }
+
+    /* Section-1 CSS */
+    .section-1 {
+        flex-direction: column;
+    }
+
+    .img, .slogan {
+        width: 100%;
+    }
+
+    .img img {
+        padding: 0 0 32px
+    }
+
+    .slogan {
+        padding: 0 16px 32px;
+    }
+
+    /* Section-2 CSS */
+    .section-2 > .img {
+        display: none;
+    }
+
+    .article-1 {
+        flex-direction: column;
+    }
+
+    .right-content {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .right-content {
+        border: none;
+    }
+    
+    .article-1 {
+        border-bottom: none;
+    }
+    
+
+    .article-1 img {
+        display: none;
+    }
+
+    .article-1 > .img-2 {
+        display: block;
+        width: 100%;
+    }
+
+    .article-content {
+        width: 100%;
+        padding-bottom: 32px;
+    }
+
+    .right-content > #third-img {
+        background-color: #fff;
+    }
+
+    .article-content > #third-img-h3 {
+        display: block;
+    }
+
+    .article-content >  #third-img-origin{
+    display: none;
+    }
+
+    /* Section-3 CSS */
+    .section-3 {
+        background-color: #fff;
+        padding: 0 16px 0;
+        margin-bottom: 32px;
+    }
+
+    .courses {
+        display: block;
+        padding-left: 0;
+    }
+
+    .course-type {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .course-type > img, .course-description > p {
+        display: none;
+    }
+
+    .course-description {
+        width: 100%;
+        background-color: #d4d4d4;
+    }
+
+    .course-description > h5 {
+        font-size: 20px;
+    }
+
+    /* Section-4 CSS */
+    .section-4-content {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .section-4 > .title > h1 > span {
+        display: inline;
+    }
+
+    .exhibit-right-content, .video-content {
+        display: none;
+    }
+
+    .video-clip {
+        width: 100%;
+        padding-bottom: 24px;
+    }
+
+    .video-clip > video {
+        padding: 0;
+    }
+
+    /* Footer CSS */
+    footer {
+        display: block;
+        padding-bottom: 16px;
+    }
+
+    footer > .tnc {
+        display: none;
+    }
+
+    .nav-link-icon {
+        display: flex;
+    }
+
+    .logo, .nav-link > ul {
+        display: none;
+    }
+}
